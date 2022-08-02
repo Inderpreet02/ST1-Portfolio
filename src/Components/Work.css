@@ -1,0 +1,154 @@
+.work{
+    padding: 100px 250px;
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 200px;
+}
+
+.work__container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* justify-content: space-between; */
+    flex: 1;
+    width: 100%;
+    color: #8892b0;
+    margin: auto;
+    margin-top: 50px;
+    padding-left: 100px;
+}
+
+.work__text{
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.work__nav{
+    display: flex;
+    flex-direction: column;
+    color: #8892b0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100%;
+    /* width: 100%; */
+}
+
+.work__tag{
+    padding: 0.75em 1.15em;
+    border: none;
+    color: #8892b0;
+    margin-right: 10px;
+    font-size: 16px;
+    height: 50px;
+    min-width: 150px;
+    text-align: lefts;
+}
+
+.work__line{
+    height: 150px;
+    width: 2px;
+    border-radius: 10px;
+    background-color: #233554;
+    position: relative;
+}
+
+.work__lineGreen{
+    position: absolute;
+    top: 0;
+    width: 2px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #64FFDA;
+    /* transform: translateY(50px); */
+    transition: transform 0.3s ease-in;
+}
+
+.tag__1{
+    transform: translateY(0px);
+}
+
+.tag__2{
+    transform: translateY(50px);
+}
+
+.tag__3{
+    transform: translateY(100px);
+}
+
+.work__heading{
+    font-size: 30px;
+    color: #ccd6f6;
+}
+
+.work__heading > span{
+    color: #64FFDA;
+    cursor: pointer;
+}
+
+.work__desc{
+    margin-top: 20px;
+    font-size: 16px;
+    /* line-height: 1.5em; */
+    color: #ccd6f6;
+    list-style: none;
+}
+
+.work__list{
+    padding: 5px;
+    padding-bottom: 15px;
+    max-width: 600px;
+    margin-left: 10px;
+}
+
+.work__list::before{
+    content: ">";
+    color: #64FFDA;
+    padding-right: 5px;
+
+}
+
+.green__text{
+    color: #64FFDA;
+    background-color: #52678c8c;
+}
+
+.work__date{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #8892b0;
+}
+
+.g__h2{
+    color: #ccd6f6;
+    font-weight: 600;
+    font-size: 32px;
+    word-spacing: .2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 100%;
+}
+
+.g__h2::before{
+    position: relative;
+    counter-increment: section 2;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
+    color: #64FFDA;
+    font-size: 24px;
+    z-index: 1;
+}
+
+.g__h2::after{
+    content: "";
+    width: 300px;
+    height: 1px;
+    display: block;
+    background-color: #233554;
+    margin-left: 20px;
+}
