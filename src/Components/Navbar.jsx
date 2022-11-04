@@ -15,22 +15,22 @@ const Navbar = () => {
             <div className="nav__right">
               <div className="nav__items">
                 <div className="nav__item">
-                  <a href="#about">
+                  <a href="#about" className="nav__num1" >
                     <span className="nav__num">01.</span> About
                   </a>
                 </div>
                 <div className="nav__item">
-                  <a href="#exp">
+                  <a href="#exp" className="nav__num1">
                     <span className="nav__num">02.</span> Experience
                   </a>
                 </div>
                 <div className="nav__item">
-                  <a href="#work">
+                  <a href="#work" className="nav__num1">
                     <span className="nav__num">03.</span> Work
                   </a>
                 </div>
                 <div className="nav__item">
-                  <a href="#contact">
+                  <a href="#contact" className="nav__num1">
                     <span className="nav__num">04.</span> Contact
                   </a>
                 </div>

@@ -4,7 +4,6 @@ import './Main.css'
 const Main = () => {
 
   const handleSubmit = (e) => {
-
     alert("Arigato I have been caontacted");
     e.preventDefault();
   }

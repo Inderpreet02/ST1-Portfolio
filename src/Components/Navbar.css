@@ -69,3 +69,7 @@
 .nav__btn:hover{
     background-color: #64ffdb2d;
 }
+
+.nav__num1{
+    background-color: inherit;
+}
