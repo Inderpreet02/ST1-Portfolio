@@ -37,6 +37,7 @@
     color: #64FFDA;
     border: 1px solid #64FFDA;
     border-radius: 5px;
+    background-color: #0a192f;
     transition: background-color .2s ease-in;
     cursor: pointer;
     align-self: flex-start;
